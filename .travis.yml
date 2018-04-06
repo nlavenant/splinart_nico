@@ -33,6 +33,7 @@ install:
   - conda create -q -n splinart-env python=$PYVER
   - source activate splinart-env
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then conda install python.app; fi;
+  - pip install -r requirement_test.txt 
   - python setup.py install
 
 script:

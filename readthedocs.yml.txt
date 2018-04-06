@@ -3,3 +3,4 @@ conda:
 requirements_file: requirements.txt
 python:
    setup_py_install: true
+   
